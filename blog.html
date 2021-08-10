@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome CDN  -->
+    <script src="https://kit.fontawesome.com/3697f7f864.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!-- ------------------------ Blog page content --------------------------  -->
+
+
+    =<section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatem inventore iste error
+                    reiciendis temporibus aut praesentium necessitatibus, explicabo quidem hic atque minus fuga libero
+                    esse tenetur pariatur. Ullam, nemo tempora libero blanditiis repudiandae impedit cum itaque dolorem,
+                    mollitia velit commodi sequi maiores eaque! Provident, aut eveniet eius in molestias veniam
+                    quisquam, tenetur mollitia quas laborum facilis maiores consectetur impedit?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestias, culpa animi
+                    reprehenderit non, ullam quidem sed error corrupti, ipsa corporis ab? Recusandae nisi, saepe ratione
+                    sit tempore necessitatibus fuga nulla modi cumque minima magnam, sequi nostrum odio porro delectus
+                    corrupti qui facilis numquam labore iusto aliquid dicta excepturi, perferendis quas! Voluptatibus,
+                    in sequi? Sapiente aperiam dolores velit saepe eveniet soluta quam debitis nam deserunt dolorum
+                    accusantium vel accusamus enim autem in ea, neque quidem. Itaque facere ducimus fugiat magni.</p>
+
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut quaerat dolore natus, facilis nulla
+                    quidem minus optio porro blanditiis enim aperiam nesciunt architecto ea ullam dolorum laboriosam
+                    molestiae consequuntur! Voluptatibus hic magni dicta. Voluptatum, sequi hic pariatur voluptatem illo
+                    laborum autem architecto excepturi, maiores, quaerat voluptate asperiores? Repellat atque
+                    consequuntur amet iste cum cupiditate, iure veritatis consectetur, inventore qui quod maiores.
+                    Dolore dignissimos sed perspiciatis possimus omnis culpa. Impedit laudantium consequuntur laborum
+                    accusamus labore, eum reprehenderit, perspiciatis quidem voluptate veniam minus eius eligendi
+                    commodi quasi at enim doloremque? Unde iure reiciendis eum sapiente voluptatum? Culpa, nesciunt
+                    placeat. Commodi, libero.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus nobis animi. Similique labore,
+                    impedit excepturi inventore officia, perferendis molestias corrupti reiciendis expedita eaque
+                    commodi id! Eius excepturi molestias corporis!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Commet</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics </span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science </span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning </span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science </span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- -------------------- Footer ------------------------  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis <br> amet ipsum cupiditate repudiandae
+            culpa
+            laborum impedit tempore repellat officia neque provident </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> by Kh. Shakil</p>
+    </section>
+
+
+
+
+
+    <!-- ----------------- JavaScript for Toogle Menu ---------------  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

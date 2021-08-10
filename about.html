@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome CDN  -->
+    <script src="https://kit.fontawesome.com/3697f7f864.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- -------------------- about us content ------------------------  -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia corrupti aliquid iste minima ex eaque
+                    placeat nostrum? Et eligendi voluptate ad magnam reprehenderit ut tempore earum ipsa fuga quos
+                    molestias deserunt rem adipisci tenetur dolores possimus nulla corporis autem, in unde officia? Eum
+                    ad illo cum dolores optio consequuntur tempore. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Fugiat quos ex quisquam dolore tempore soluta totam minus, qui alias autem!</p>
+
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------- Footer ------------------------  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis <br> amet ipsum cupiditate repudiandae
+            culpa
+            laborum impedit tempore repellat officia neque provident </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> by Kh. Shakil</p>
+    </section>
+
+
+
+
+
+    <!-- ----------------- JavaScript for Toogle Menu ---------------  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
